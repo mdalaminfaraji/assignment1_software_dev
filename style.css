@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.bgColor {
+  background: #1a187a;
+  color: #fff;
+}
+
+.bannerBackgroundImage {
+  background-image: url(./images/backgroundImage.png);
+}
+.sliderHeight {
+  height: "550px";
+}
+.proSection {
+  /* padding-left: "250px"; */
+  margin-left: 100px;
+}
+
+.pro {
+  color: #1e046a;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 128% */
+  opacity: 0.4;
+}
+.Iphone {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 75% */
+  letter-spacing: -0.96px;
+}
+.Iphone span{
+  font-weight: 600;
+}
+.creat{
+  color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+
+
+/* Gallery */
+
+.GalleryHeight{
+  height: 100vh;
+
+
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.Category{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: space-between;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/* @media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+} */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+/* media query */
+
+/* @media screen and (max-width:1200px){
+  .customControl{
+    display: flex;
+    flex-direction:row;
+
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .customControl{
+    flex-direction:column;
+  }
+} */
