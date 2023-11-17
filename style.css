@@ -83,6 +83,18 @@ line-height: 24px; /* 133.333% */
   justify-content: space-between;
 }
 
+
+.arival-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: space-between;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 /* @media (max-width: 800px) {
   .column {
