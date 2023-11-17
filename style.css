@@ -60,6 +60,7 @@ line-height: 24px; /* 133.333% */
 
 }
 
+
 .flex-container{
   display: flex;
   flex-wrap: wrap;
@@ -95,6 +96,40 @@ line-height: 24px; /* 133.333% */
   text-decoration: underline;
 }
 
+/* 11.sale */
+
+.bgImage{
+  background-image: url(./images/Rectangle\ 3.png);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.text11{
+  color: #25177B;
+}
+
+
+.bgFooter{
+
+  background: #0E071B;
+}
+
+.flex-footer{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.columnFooter {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.textColor1{
+  color:#CFCFCF;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 /* @media (max-width: 800px) {
   .column {
@@ -108,6 +143,11 @@ line-height: 24px; /* 133.333% */
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .columnFooter{
+    flex: 100%;
+    max-width: 100%;
+
   }
 }
 
